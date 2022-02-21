@@ -144,7 +144,6 @@ const Main: FC<Props> = (props: Props) => {
             <Box
                 sx={{
                     height: "calc(100% - 56px)",
-
                     backgroundColor: theme.palette.background.default,
                 }}
             >
@@ -178,6 +177,7 @@ const Main: FC<Props> = (props: Props) => {
                 <Box
                     sx={{
                         marginTop: theme.spacing(2),
+                        margin: "auto",
                         maxWidth: 975,
                         display: "flex",
                         flexFlow: "row wrap",
